@@ -142,8 +142,15 @@ a.article-title:hover {
     right: 10px;
     text-align: center;
     text-decoration: none;
+    background: #fd7e14;
     /*color: #fd7e14;*/
 
+}
+
+.logo_2:hover {
+  background: black;
+  color: white;
+  text-decoration: none;
 }
 
 .logo_3 {
@@ -155,8 +162,15 @@ a.article-title:hover {
     right: 5px;
     text-align: center;
     text-decoration: none;
+    background: chartreuse;
     /*color: #fd7e14;*/
 
+}
+
+.logo_3:hover {
+  background: black;
+  color: white;
+  text-decoration: none;
 }
 
 .content-project {

@@ -8,10 +8,10 @@ In Body:
 
 {
   "user": 1, # юзер должен быть уже создан
-  "title": "",
-  "description": "",
-  "d_time": "YYYY-MM-DD",
-  "priority": ""
+  "title": "Тест на API",
+  "description": "Пробная задача на API",
+  "d_time": "2024-02-28",
+  "priority": "Высокий"
 }
 
 
@@ -27,8 +27,8 @@ In Body:
   "title": "Привет",
   "description": "Пробная с PUT",
 
-  "d_time": "2024-02-30T12:13:14Z",
-  "priority": "Low",
+  "d_time": "2024-02-28T12:13:14Z",
+  "priority": "Низкий",
   "mark": false
   }
 
