@@ -1,0 +1,36 @@
+Получить все входные значения
+
+Список всех задач: GET http://127.0.0.1:8000/api/task/
+
+Создать задачу: POST http://127.0.0.1:8000/api/task/
+
+In Body:  
+
+{
+  "user": 1, # юзер должен быть уже создан
+  "title": "",
+  "description": "",
+  "d_time": "YYYY-MM-DD",
+  "priority": ""
+}
+
+
+Получить задачу: GET http://127.0.0.1:8000/api/task/{task_id}/
+
+Обновить задачу: PUT or PATCH http://127.0.0.1:8000/api/task/{task_id}/
+
+In Body:
+
+{
+  "id": 33,
+  "user": 1,
+  "title": "Привет",
+  "description": "Пробная с PUT",
+
+  "d_time": "2024-02-30T12:13:14Z",
+  "priority": "Low",
+  "mark": false
+  }
+
+
+Удалить задачу: DELETE http://127.0.0.1:8000/api/task/{task_id}/
