@@ -80,33 +80,33 @@
                 </div>
 
 
-                <div class="col-2">
-                    <div class="card">
-
-
-                        <label>
-                            <select class="select">
-                                <ul>
-
-                                    <option class="">
-                                        Фильтрация по приоритету
-                                    </option>
-
-                                    <option value="/" class="list-group-item bg {% if bgall %} bg-{{ bgall }} {% endif %}">Все</option>
-
-                                    <option value="{% url 'priority_filter' 'High' %}"
-                                       class="list-group-item bg {% if bgh %} bg-{{ bgh }} {% endif %}">Высокий</option>
-                                    <option value="{% url 'priority_filter' 'Medium' %}"
-                                       class="list-group-item {% if bgm %} bg-{{ bgm }} {% endif %}">Средний</option>
-                                    <option value="{% url 'priority_filter' 'Low' %}"
-                                       class="list-group-item {% if bgl %} bg-{{ bgl }} {% endif %}">Низкий</option>
-                                </ul>
-                            </select>
-                        </label>
-
-
-                    </div>
-                </div>
+{#                <div class="col-2">#}
+{#                    <div class="card">#}
+{##}
+{##}
+{#                        <label>#}
+{#                            <select class="select">#}
+{#                                <ul>#}
+{##}
+{#                                    <option class="">#}
+{#                                        Фильтрация по приоритету#}
+{#                                    </option>#}
+{##}
+{#                                    <option value="/" class="list-group-item bg {% if bgall %} bg-{{ bgall }} {% endif %}">Все</option>#}
+{##}
+{#                                    <option value="{% url 'priority_filter' 'High' %}"#}
+{#                                       class="list-group-item bg {% if bgh %} bg-{{ bgh }} {% endif %}">Высокий</option>#}
+{#                                    <option value="{% url 'priority_filter' 'Medium' %}"#}
+{#                                       class="list-group-item {% if bgm %} bg-{{ bgm }} {% endif %}">Средний</option>#}
+{#                                    <option value="{% url 'priority_filter' 'Low' %}"#}
+{#                                       class="list-group-item {% if bgl %} bg-{{ bgl }} {% endif %}">Низкий</option>#}
+{#                                </ul>#}
+{#                            </select>#}
+{#                        </label>#}
+{##}
+{##}
+{#                    </div>#}
+{#                </div>#}
 
             </div>
         </div>

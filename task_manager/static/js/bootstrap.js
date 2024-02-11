@@ -4461,11 +4461,11 @@
     Toast,
     Tooltip
   };
-  const select = document.querySelector('select');
-
-select.addEventListener('change', function(){
-  window.location.href = select.value
-});
+//   const select = document.querySelector('select');
+//
+// select.addEventListener('change', function(){
+//   window.location.href = select.value
+// });
 
   return index_umd;
 

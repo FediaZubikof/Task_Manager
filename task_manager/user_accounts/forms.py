@@ -5,14 +5,14 @@ from django.utils.translation import gettext, gettext_lazy as _
 
 
 class RegistrationForm(UserCreationForm):
-    password1 = forms.CharField(label='Password', widget=forms.PasswordInput(attrs={'class': 'form-control Roboto'}), )
-    password2 = forms.CharField(label='Confirm Password (again)',
+    password1 = forms.CharField(label='Пароль', widget=forms.PasswordInput(attrs={'class': 'form-control Roboto'}), )
+    password2 = forms.CharField(label='Подтвердите пароль (еще раз)',
                                 widget=forms.PasswordInput(attrs={'class': 'form-control Roboto'}))
 
     class Meta:
         model = User
         fields = ['username', 'first_name', 'last_name', 'email']
-        labels = {'first_name': 'First Name', 'last_name': 'Last Name'}
+        labels = {'first_name': 'Имя', 'last_name': 'Фамилия'}
         widgets = {
             'username': forms.TextInput(attrs={'class': 'form-control Roboto'}),
             'first_name': forms.TextInput(attrs={'class': 'form-control Roboto'}),
@@ -23,5 +23,5 @@ class RegistrationForm(UserCreationForm):
 
 class LoginForm(AuthenticationForm):
     username = UsernameField(widget=forms.TextInput(attrs={'autofocus': True, 'class': 'form-control Roboto'}))
-    password = forms.CharField(label=_("Password"), strip=False, widget=forms.PasswordInput(
+    password = forms.CharField(label=_("Пароль"), strip=False, widget=forms.PasswordInput(
         attrs={'autocomplete': "current-password", 'class': 'form-control Roboto'}))
