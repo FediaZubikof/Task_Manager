@@ -37,9 +37,13 @@ In Body:
 
 {
   "user": 1,
+  
   "title": "Тест на API",
+  
   "description": "Пробная задача на API",
+  
   "d_time": "2024-02-28",
+  
   "priority": "Высокий"
 }
 
