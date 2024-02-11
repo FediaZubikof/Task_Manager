@@ -30,7 +30,7 @@ class TaskUpdateForm(forms.ModelForm):
         fields = ['title', 'description', 'priority', 'd_time']
         widgets = {
             'title': forms.TextInput(attrs={'class': 'form-control Roboto', 'placeholder': 'Title'}),
-            'description': forms.Textarea(attrs={'class': 'custom-class', 'placeholder': 'Description'}),
+            'description': forms.Textarea(attrs={'class': 'custom-class', 'placeholder': 'Описание'}),
             'priority': forms.Select(attrs={'class': 'custom-class'}),
             'mark': forms.CheckboxInput(attrs={'class': 'custom-class'}),
             'd_time': DateTimeInput(attrs={'class': 'custom-class', 'placeholder': '%Y-%m-%d %H:%M:%S'}),
