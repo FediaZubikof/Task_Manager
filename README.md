@@ -56,12 +56,17 @@ In Body:
 
 {
   "id": 33,
+  
   "user": 1,
+  
   "title": "Привет",
+  
   "description": "Пробная с PUT",
-
+  
   "d_time": "2024-02-28T12:13:14Z",
+  
   "priority": "Низкий",
+  
   "mark": false
   }
 
